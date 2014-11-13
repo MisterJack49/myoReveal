@@ -1,0 +1,23 @@
+{
+  "name": "myoReveal",
+  "version": "1.0.0",
+  "description": "Myo plugin for reveal.js",
+  "main": "myoReveal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MisterJack49/myoReveal.git"
+  },
+  "keywords": [
+    "myo",
+    "reveal.js"
+  ],
+  "author": "MisterJack49",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterJack49/myoReveal/issues"
+  },
+  "homepage": "https://github.com/MisterJack49/myoReveal"
+}
