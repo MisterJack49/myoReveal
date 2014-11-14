@@ -48,9 +48,8 @@ myo.on('fingers_spread', function(edge){
 
 myo.on('imu', function(data){
 	var orientation = data.orientation;
-		if(getRoll(orientation) > 3.5 && getPitch(orientation) >5){
-			console.log("flap up");
-		}
+		console.log("Roll : " + getRoll(orientation) );
+		console.log("Pitch : " + getPitch(orientation) );
 });
 
 function getRoll(data){
